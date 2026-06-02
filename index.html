@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinguBoost</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="faviconepng.png" type="image/png" />
+  </head>
+  <body>
+    <header class="linguboost-header">
+      <h1 class="brand">LinguBoost</h1>
+      <p>زبان مورد علاقه ات رو با لذت یاد بگیر!</p>
+    </header>
+
+    <button id="menu-toggle">☰</button>
+
+    <nav id="main-menu">
+      <ul>
+        <li>
+          <a href="#lingu-boost-section" data-section="vocabulary">لغات</a>
+        </li>
+        <li><a href="#lingu-boost-section" data-section="grammar">گرامر</a></li>
+        <li>
+          <a href="#lingu-boost-section" data-section="pronounciation">تلفظ</a>
+        </li>
+        <li class="has-submenu">
+          <button id="submenu-toggle">تمرینات</button>
+          <ul class="submenu" id="exercises-submenu">
+            <li>
+              <a href="#lingu-boost-section" data-section="vocab-exercises"
+                >تمرینات لغات</a
+              >
+            </li>
+            <li>
+              <a href="#lingu-boost-section" data-section="gramm-exercises"
+                >تمرینات گرامر</a
+              >
+            </li>
+            <li>
+              <a href="#lingu-boost-section" data-section="pronoun-exercises"
+                >تمرینات تلفظ</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#lingu-boost-section" data-section="flashcard">فلش کارت</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="hero-section">
+      <h2>اپلیکیشنی جذاب و کاربردی برای یادگیری سریع و موثر زبان انگلیسی.</h2>
+      <p>فقط با روزی 10 دقیقه</p>
+      <button class="btn-start">Start</button>
+    </main>
+
+    <div class="card-slider-wrapper">
+      <div class="card">
+        <h2 class="card-title">1. درس های روزانه:</h2>
+        <p class="card-text">
+          درس های کوتاه و کاربردی برای واژگان، گرامر و تلفظ.
+        </p>
+        <button class="btn-next">Okay</button>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title">2. تمرین های تعاملی:</h2>
+        <p class="card-text">
+          فلش کارت، تمرین های جای خالی، تمرین های شنیداری.
+        </p>
+        <button class="btn-next">Okay</button>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title">3. پیگیری پیشرفت:</h2>
+        <p class="card-text">
+          نمودار یا آماری که نشون میده کاربر چقدر یاد گرفته.
+        </p>
+        <button class="btn-next">Okay</button>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title">4. سیستم امتیازدهی و چالش:</h2>
+        <p class="card-text">برای انگیزه ی بیشتر دادن به کاربر.</p>
+        <button class="btn-next">Okay</button>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title">5. امکان تمرین مکالمه:</h2>
+        <p class="card-text">نمونه دیالوگ ها.</p>
+        <button class="btn-next">Okay</button>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title">اولین درس رو همین الان یاد بگیر!</h2>
+        <button class="btn-next">!Leggo</button>
+      </div>
+
+      <div class="card">
+        <div class="field">
+          <h2>برای شروع، اطلاعاتت رو وارد کن 👇🏻</h2>
+          <label for="email">ایمیل</label>
+          <input id="email" type="email" autocomplete="email" />
+          <label for="user-name">نام کاربری</label>
+          <input id="user-name" type="text" autocomplete="username" />
+          <label for="password">رمز عبور</label>
+          <input id="password" type="password" />
+        </div>
+        <button class="btn-done" type="submit">Done</button>
+      </div>
+    </div>
+
+    <footer class="linguboost-footer">
+      <p>2026 - Made by Zahra05.coder</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
