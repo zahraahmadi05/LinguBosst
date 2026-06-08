@@ -73,5 +73,5 @@ doneBtn.addEventListener("click", () => {
   cardsSliderWrapper.style.display = "none";
   dashboard.style.display = "block";
 });
-cardsSliderWrapper.style.display = "none";
-dashboard.style.display = "block";
+//cardsSliderWrapper.style.display = "none";
+//dashboard.style.display = "block";
