@@ -31,8 +31,8 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: #111;
-    color: white;
+    background: #333;
+    color: #fff;
   }
 }
 
@@ -58,9 +58,9 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .linguboost-header {
-    background: #111;
+    background: #222;
     color: white;
-    border: 1px solid #f9dddd;
+    border: 1px solid #ffffff;
   }
 }
 
@@ -88,6 +88,15 @@ body {
 .btn-start:hover {
   background: #1d4ed8;
   color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .btn-start {
+    background: #444;
+  }
+  .btn-start:hover {
+    background: #111;
+  }
 }
 
 .card {
@@ -145,6 +154,16 @@ body {
   transform: translateY(0);
 }
 
+@media (prefers-color-scheme: dark) {
+  .btn-next {
+    background: #555;
+    color: #ffffff;
+  }
+  .btn-next:hover {
+    background: #222;
+  }
+}
+
 .field {
   margin-top: 10px;
   display: flex;
@@ -174,6 +193,12 @@ input:focus {
   box-shadow: 0 0 0 5px rgba(68, 5, 68, 0.15);
 }
 
+@media (prefers-color-scheme: dark) {
+  input {
+    background: #666;
+  }
+}
+
 button {
   margin-top: 15px;
   padding: 12px;
@@ -189,6 +214,16 @@ button {
 button:hover {
   background: #267fec;
   color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  button {
+    background: #555;
+    color: #fff;
+  }
+  button:hover {
+    background: #111;
+  }
 }
 
 #dashboard {
@@ -233,12 +268,11 @@ button:hover {
 @media (prefers-color-scheme: dark) {
   .grid-item {
     padding: 15px;
-    box-shadow: 0 10px 10px rgba(109, 78, 78, 0.09);
-    background-color: #e0b3e3;
-    color: #000000;
+    background-color: #555;
+    color: #ffffff;
   }
   .grid-item:hover {
-    background-color: #746c6c;
+    background-color: #444;
     color: #fff;
   }
 }
@@ -267,11 +301,11 @@ button:hover {
 
 @media (prefers-color-scheme: dark) {
   .grid-exercise {
-    background-color: #a08080;
+    background-color: #444;
     color: #ffffff;
   }
   .grid-exercise:hover {
-    background-color: #c59a9a;
+    background-color: #222;
     color: #fff;
   }
 }
