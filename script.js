@@ -70,8 +70,8 @@ doneBtn.addEventListener("click", () => {
     alert("لطفا موارد خواسته شده را وارد کنید. 🙂");
     return;
   }
-  localStorage.setItem("dashboardVisible", "true");
-  
   cardsSliderWrapper.style.display = "none";
   dashboard.style.display = "block";
 });
+cardsSliderWrapper.style.display = "none";
+dashboard.style.display = "block";

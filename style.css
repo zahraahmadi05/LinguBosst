@@ -244,8 +244,36 @@ button:hover {
 }
 
 .grid-exercise {
-  color: #000;
-  background-color: #4fc1b8;
+  color: #ffffff;
+  background-color: #25706a;
+  padding: 18px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  .grid-exercise {
+    padding: 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.grid-exercise:hover {
+  background-color: #234a47;
+  color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .grid-exercise {
+    background-color: #555;
+    color: #000;
+  }
+  .grid-exercise:hover {
+    background-color: #000;
+    color: #fff;
+  }
 }
 
 .linguboost-footer {
