@@ -55,15 +55,16 @@
 ## Cards
 ![Cards Light](./imgs/cards-light.png)
 
-## Dashboard
-![Dashboard Page](./imgs/Dashboard.png)
-
 # 📢 Update 7/6/2026
 
 ## Create a dashboard.
 
 Dashboard content:
 Vocabulary. Grammar. Pronunciation. Exercises: vocabulary exercises. grammar exercises. pronunciation exercises. flashcards.
+
+## Dashboard
+
+![Dashboard Page](./imgs/Dashboard.png)
 
 # 📄 License
 MIT
