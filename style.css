@@ -109,7 +109,7 @@ body {
   transition:
     transform 0.3s ease,
     opacity 0.3s ease;
-  line-height: 2.3;
+  line-height: 2;
   display: none;
 }
 
@@ -277,7 +277,11 @@ button:hover {
   }
 }
 
-.grid-exercise {
+#practice-menu {
+  display: none;
+}
+
+.grid-exercises {
   color: #000000;
   background-color: #f8f8d7;
   padding: 18px;
@@ -288,23 +292,23 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-  .grid-exercise {
+  .grid-exercises {
     padding: 10px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
   }
 }
 
-.grid-exercise:hover {
+.grid-exercises:hover {
   background-color: #d8d8ba;
   color: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
-  .grid-exercise {
+  .grid-exercises {
     background-color: #444;
     color: #ffffff;
   }
-  .grid-exercise:hover {
+  .grid-exercises:hover {
     background-color: #222;
     color: #fff;
   }

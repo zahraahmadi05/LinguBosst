@@ -23,6 +23,10 @@ const cardsSliderWrapper = document.querySelector(".card-slider-wrapper");
 // انتخاب داشبورد
 const dashboard = document.getElementById("dashboard");
 
+// انتخاب آیتم های داشبورد
+const practiceBtn = document.getElementById("practice-btn");
+const practiceMenu = document.getElementById("practice-menu");
+
 // متغییر شمارنده
 let steps = -1;
 
@@ -73,5 +77,14 @@ doneBtn.addEventListener("click", () => {
   cardsSliderWrapper.style.display = "none";
   dashboard.style.display = "block";
 });
-//cardsSliderWrapper.style.display = "none";
-//dashboard.style.display = "block";
+cardsSliderWrapper.style.display = "none";
+dashboard.style.display = "block";
+
+// فعال کردن دکمه ی تمرینات
+practiceBtn.addEventListener("click", () => {
+  if ((practiceMenu.style.display = "none")) {
+    practiceMenu.style.display = "block";
+  } else {
+    practiceMenu.style.display = "none";
+  }
+});
