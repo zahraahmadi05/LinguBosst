@@ -87,7 +87,7 @@ Add background.
 
 ## Background
 
-![Background](.imgs/background.jpg)
+![Background](./imgs/Background.png)
 
 # 📄 License
 
