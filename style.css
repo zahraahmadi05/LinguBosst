@@ -238,6 +238,9 @@ button:hover {
 
 .grid-container {
   padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 25px;
 }
 
 @media (max-width: 768px) {
@@ -249,10 +252,15 @@ button:hover {
 .grid-item {
   color: #000000;
   background-color: #fcfce6;
-  padding: 25px;
+  width: 300px;
+  height: 160px;
   text-align: center;
   border-radius: 12px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   transition: transform 0.4s;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
   transition:
