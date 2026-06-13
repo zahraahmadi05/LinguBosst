@@ -256,11 +256,7 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: transform 0.4s;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
-  transition:
-    transform 0.3s ease,
-    opacity 0.3s ease;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 768px) {
@@ -297,7 +293,8 @@ button:hover {
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.25);
+  margin: 10px;
 }
 
 @media (max-width: 768px) {
@@ -316,7 +313,7 @@ button:hover {
   .grid-exercises {
     background-color: #555;
     color: #ffffff;
-    padding: 17px;
+    margin-right: 27px;
   }
   .grid-exercises:hover {
     background: #000;
