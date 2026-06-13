@@ -20,6 +20,9 @@ body {
   color: var(--text);
   line-height: 1.7;
   background: var(--bg);
+  background-image: url("imgs/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 768px) {
@@ -33,6 +36,9 @@ body {
   body {
     background: #333;
     color: #fff;
+    background-image: url("imgs/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
