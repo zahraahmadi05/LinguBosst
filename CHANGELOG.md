@@ -26,6 +26,7 @@ Exercise categories are now displayed when the user clicks on the Exercises sect
 # 📢 Update 13/6/2026
 
 Add background.
+Add icons for LinguBoost.
 
 ## Background
 
