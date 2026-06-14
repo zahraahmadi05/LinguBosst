@@ -33,12 +33,6 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    background-size: 700%;
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   body {
     background: #000;
