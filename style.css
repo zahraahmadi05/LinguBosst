@@ -33,6 +33,12 @@ body {
   }
 }
 
+@media (min-width: 1024px) {
+  body {
+    background-size: 700%;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background: #000;
@@ -92,6 +98,10 @@ body {
     padding: 20px;
     margin-bottom: 30px;
   }
+  .hero-section p {
+    padding: 6px;
+    width: 160px;
+  }
 }
 
 .btn-start {
@@ -101,13 +111,20 @@ body {
   color: #fff;
   margin-right: 185px;
   margin-top: 30px;
-  border-radius: 18px;
+  border-radius: 15px;
 }
 
 .btn-start:hover {
   background: #0b33a0;
   color: #fff;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+  .btn-start {
+    width: 70px;
+    margin-right: 127px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -120,9 +137,7 @@ body {
 }
 
 .card {
-  //background: rgba(255, 255, 255, 0.08);
   background-filter: blur(14px);
-  //border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 25px;
   padding: 10px 10px;
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
