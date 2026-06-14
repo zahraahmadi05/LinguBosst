@@ -63,5 +63,4 @@
 See [CHANGELOG.md](./CHANGELOG.md) for complete history of project updates.
 
 # 📄 License
-
 MIT
