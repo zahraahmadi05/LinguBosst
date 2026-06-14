@@ -81,14 +81,16 @@ body {
 }
 
 .btn-start {
-  width: 70px;
+  font-size: 2ch;
+  width: 80px;
   background: #2563eb;
   color: #fff;
 }
 
 .btn-start:hover {
-  background: #1d4ed8;
+  background: #0b33a0;
   color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
