@@ -33,3 +33,9 @@ Add background.
 
 Add icons for header, description, dashboard.
 Edit dachboard styles.
+
+# 📢 Update 14/6/2026
+
+Changing the Start Button Style.
+Changing the header text.
+Styling the header text.
